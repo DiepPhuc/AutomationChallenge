@@ -1,0 +1,11 @@
+robotframework==4.0
+robotframework-jsonlibrary
+robotframework-SeleniumLibrary
+robotframework-pabot
+selenium
+webdrivermanager
+robotframework-faker
+robotframework-requests
+dnspython
+robotframework-datadriver
+#pyOpenSSL
