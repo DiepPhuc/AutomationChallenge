@@ -1,0 +1,26 @@
+==============================================================================
+Tests                                                                         
+==============================================================================
+Tests.SearchTheCityTest                                                       
+==============================================================================
+Tests.SearchTheCityTest.Search Weather :: Test Suites for Searching weather   
+==============================================================================
+User can search the city                                              | PASS |
+------------------------------------------------------------------------------
+User can select the options city                                      | FAIL |
+26°C not match with 27°C: 26°C != 27°C
+------------------------------------------------------------------------------
+User can change temperature from metric to imperial                   | PASS |
+------------------------------------------------------------------------------
+Verify that information weather is displayed same as respsonse data   | PASS |
+------------------------------------------------------------------------------
+Tests.SearchTheCityTest.Search Weather :: Test Suites for Searchin... | FAIL |
+4 tests, 3 passed, 1 failed
+==============================================================================
+Tests.SearchTheCityTest                                               | FAIL |
+4 tests, 3 passed, 1 failed
+==============================================================================
+Tests                                                                 | FAIL |
+4 tests, 3 passed, 1 failed
+==============================================================================
+Output:  /Users/macbookpro/Desktop/AutomationChallenge/pabot_results/1/output.xml
