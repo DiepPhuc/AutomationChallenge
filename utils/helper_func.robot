@@ -33,3 +33,8 @@ Count And Verify
     FOR  ${i}  IN RANGE  1  ${count_numb}+1
         ${result} =  helper_func.Wait And Get Text  ${DROPDOWN_MENU}[${i}]
         Should Contain  ${actual}  ${expected}
+Convert Numb To Int
+    [Arguments]  ${number}
+    ${number} =  convert to number  ${number}  0
+    ${number} =  convert to integer  ${number}
+    [Return]  ${number}

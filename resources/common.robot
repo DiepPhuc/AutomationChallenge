@@ -1,6 +1,7 @@
 *** Settings ***
 Library  SeleniumLibrary  #run_on_failure=Nothing
 Library  OperatingSystem
+Library  RequestsLibrary
 Variables  ${EXECDIR}/utils/constants.py
 *** Keywords ***
 Go To Home Page
