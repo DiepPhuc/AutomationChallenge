@@ -1,5 +1,5 @@
 BROWSER = 'Chrome'
-HEADLESS = True
+HEADLESS = False
 ENVIRONMENT = 'stg'
 AUT_URL = 'https://openweathermap.org'
 API_URL = 'https://openweathermap.org'
