@@ -8,7 +8,6 @@ Variables  ${EXECDIR}/utils/constants.py
 *** Keywords ***
 Get city_id
     [Arguments]  ${city}
-    Create Session  test-session  ${API_URL}  verify=true
     ${city} =  Encode String To Bytes  ${city}  UTF-8
     ${res} =  Get Request  test-session  /data/2.5/find?q=${city}&appid=439d4b804bc8187953eb36d2a8c26a02&units=metric
     ${res_data} =  Set Variable   ${res.json()}
@@ -17,7 +16,6 @@ Get city_id
     [Return]  ${city_id}
 Get lat_lng
     [Arguments]  ${city}
-    Create Session  test-session  ${API_URL}  verify=true
     ${city} =  Encode String To Bytes  ${city}  UTF-8
     ${res} =  Get Request  test-session  /data/2.5/find?q=${city}&appid=439d4b804bc8187953eb36d2a8c26a02&units=metric
     ${res_data} =  Set Variable   ${res.json()}
